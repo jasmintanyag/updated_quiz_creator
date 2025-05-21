@@ -48,3 +48,7 @@ class QuizCreator(QuizCore):
                 f.write(json.dumps(entry) + "\n")
     
         print(f"{Fore.GREEN}✨ All questions are now saved in {filename} under the {category} category.✨")
+
+if __name__ == "__main__":
+    quiz_creator = QuizCreator()
+    quiz_creator.create_quiz_file()
