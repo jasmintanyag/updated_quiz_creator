@@ -4,6 +4,11 @@ from quiz_game import QuizGame
 
 init(autoreset=True)
 
+class MainMenu:
+    def __init__(self):
+        self.creator = QuizCreator()
+        self.game = QuizGame()
+
 def main_menu():
     while True:
         print(f"\n{Fore.YELLOW}----- Quizzierett -----")
