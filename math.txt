@@ -1,0 +1,5 @@
+{"questions": "What is 123 + 456?", "options": {"a": "479", "b": "579", "c": "679", "d": "779"}, "correct": "b"}
+{"questions": "What is 10 x 10?", "options": {"a": "10", "b": "101", "c": "100", "d": "1001"}, "correct": "c"}
+{"questions": "What is 1234567899 + 1?", "options": {"a": "2000000000", "b": "1234567890", "c": "2345678901", "d": "1234567900"}, "correct": "d"}
+{"questions": "What is 1 x 1?", "options": {"a": "1", "b": "2", "c": "4", "d": "0"}, "correct": "a"}
+{"questions": "What is 100 x 0?", "options": {"a": "0", "b": "10", "c": "100", "d": "1000"}, "correct": "a"}
