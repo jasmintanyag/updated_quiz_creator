@@ -1,8 +1,12 @@
 import json
 from colorama import init, Fore, Style
+from quiz_core import QuizCore
 
 init(autoreset=True)
 
+class QuizCreator(QuizCore):
+    ...
+    
 def create_quiz_file():
     print(f"\n{Fore.CYAN} ✨ Welcome to Quiz Creation!✨")
     print(f"{Fore.YELLOW}(Type 'exit' anytime to quit.)\n")
@@ -46,6 +50,3 @@ def create_quiz_file():
             f.write(json.dumps(entry) + "\n")
     
     print(f"{Fore.GREEN}✨ All questions are now saved in {filename} under the {category} category.✨")
-
-if __name__ == "__main__":
-    create_quiz_file()
