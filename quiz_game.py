@@ -44,11 +44,11 @@ class QuizGame(QuizCore):
 
             users_answer = input("Your answer is: ")
             if users_answer.lower() == question_file["correct"]:
-                self.play_sound("correct.wav")
+                self.play_sound("sounds/correct.wav")
                 print(f"{Fore.GREEN}✅ Your answer is CORRECT!")
                 score += 1
             else:
-                self.play_sound("wrong.wav")
+                self.play_sound("sounds/wrong.wav")
                 print(f"{Fore.RED}❌ WRONG! The correct answer is {question_file['correct'].upper()}")
 
         print(f"{Fore.YELLOW}🎉 CONGRATULATIONS! You completed the quiz! \nYour score is: {score}/{len(questions)}")

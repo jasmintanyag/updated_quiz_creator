@@ -16,7 +16,7 @@ class MainMenu:
             print("2. Exit")
             choice = input(f"{Fore.MAGENTA}Select an option: ")
             if choice == "1":
-                self.play_quiz()
+                self.game.play_quiz()
             elif choice == "2":
                 print(f"{Fore.CYAN}Exiting..... Goodbye!👋")
                 break

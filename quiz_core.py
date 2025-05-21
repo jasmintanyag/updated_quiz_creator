@@ -26,7 +26,7 @@ class QuizCore:
             json.dump(scores, score_file, indent=5)
 
     def countdown(self, seconds=3):
-        sound = pygame.mixer.Sound("start_quiz.wav")
+        sound = pygame.mixer.Sound("sounds/start_quiz.wav")
         sound.play()
         for remaining_seconds in range(seconds, 0, -1):
             print(f"{Fore.YELLOW}⏳ The quiz will start in {remaining_seconds}...", end="\r")
