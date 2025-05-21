@@ -1,6 +1,9 @@
 import random
 from colorama import init, Fore, Style
+from quiz_core import QuizCore
 
+class QuizGame(QuizCore):
+    ...
 
 def play_quiz():
     categories = list_categories()
