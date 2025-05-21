@@ -1,4 +1,6 @@
 from colorama import init, Fore, Style
+from quiz_creator import QuizCreator
+from quiz_game import QuizGame
 
 init(autoreset=True)
 
