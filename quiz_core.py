@@ -6,7 +6,10 @@ import pygame
 
 init(autoreset=True)
 pygame.mixer.init()
+SCORE_FILE = "scores.json"
 
+class QuizCore:
+    ...
 
 def play_sound(filename):
     pygame.mixer.music.load(filename)
@@ -15,7 +18,6 @@ def play_sound(filename):
         continue
 
 
-SCORE_FILE = "scores.json"
 def load_scores():
     if os.path.exists(SCORE_FILE):
         with open(SCORE_FILE, "r") as score_file:
