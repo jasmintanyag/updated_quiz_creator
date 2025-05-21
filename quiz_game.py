@@ -57,4 +57,4 @@ class QuizGame(QuizCore):
         scores[players_name] = score
         self.save_scores(scores)
 
-        print(f"{Fore.CYAN}🏆 Your score has been saved under the name '{players_name}.")
+        print(f"{Fore.CYAN}🏆 Your score has been saved under the name '{players_name}'.")
